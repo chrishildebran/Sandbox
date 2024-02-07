@@ -1,13 +1,4 @@
-﻿// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Company:...... J.H. Kelly
-// Department:... Virtual Construction Services
-// Website:...... http://www.jhkelly.com
-// Solution:..... Sandbox
-// Project:...... DotNetCore
-// File:......... Program.cs ✓✓
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-namespace DotNetCore;
+﻿namespace DotNetCore;
 
 public class Program
 {
@@ -16,7 +7,11 @@ public class Program
 	{
 		//new CsvHelperTests().ObjectWithListOfObjects();
 
-		//new MarkdownService(@"C:\Code\GitHub\chrishildebran\Notes");
+		//new MarkdownService(@"C:\Users\CHildebran\OneDrive\UpnoteExport\UpNote_2024-01-27_05-33-43");
+
+		// new ConstructionMath();
+
+		Console.Read();
 	}
 
 }

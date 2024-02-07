@@ -5,13 +5,27 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyVersion>2024.2.7.2137</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="29.0.0" />
+    <PackageReference Include="CsvHelper" Version="30.1.0" />
     <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
-    <PackageReference Include="YamlDotNet" Version="13.3.1" />
+    <PackageReference Include="Markdown" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.5" />
+    <PackageReference Include="YamlDotNet" Version="15.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kelly.Domain.Core">
+      <HintPath>..\..\..\jhkweb\Library-Domain-Core\Project\bin\Kelly.Domain.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

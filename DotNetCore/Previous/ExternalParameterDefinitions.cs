@@ -3,12 +3,8 @@
 public record ExternalParameterDefinitions
 {
 
-    #region Properties
+	public Guid DefinitionGuid{get;set;}
 
-    public Guid DefinitionGuid { get; set; }
-
-    public string DefinitionName { get; set; }
-
-    #endregion
+	public string DefinitionName{get;set;}
 
 }

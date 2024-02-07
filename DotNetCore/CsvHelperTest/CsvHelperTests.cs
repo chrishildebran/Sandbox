@@ -7,8 +7,6 @@ using CsvHelper;
 public class CsvHelperTests
 {
 
-	#region Methods
-
 	public void ObjectWithListOfObjects()
 	{
 		// https: //stackoverflow.com/questions/59015885/csvhelper-create-a-classmapclassa-that-contains-a-property-as-list-items-to-wr#:~:text=CsvHelper%20create%20a%20ClassMap%3CClassA%3E%20that%20contains%20a%20property,Ask%20Question%20Asked%203%20years%2C%201%20month%20ago
@@ -69,7 +67,5 @@ public class CsvHelperTests
 
 		Console.ReadKey();
 	}
-
-	#endregion
 
 }

@@ -1,13 +1,4 @@
-﻿// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Company:...... J.H. Kelly
-// Department:... Virtual Construction Services
-// Website:...... http://www.jhkelly.com
-// Solution:..... Sandbox
-// Project:...... DotNetCore
-// File:......... Customer.cs ✓✓
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-namespace DesignPatternDemos.DataMapper;
+﻿namespace DotNetCore.DataMapperTEst;
 
 public class Customer
 {

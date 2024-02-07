@@ -3,23 +3,15 @@
 public class ClassA
 {
 
-    #region Constructors
+	public ClassA()
+	{
+		this.PropertyBs = new List<ClassB>();
+	}
 
-    public ClassA()
-    {
-        this.PropertyBs = new List<ClassB>();
-    }
+	public int Id{get;set;}
 
-    #endregion
+	public string Name{get;set;}
 
-    #region Properties
-
-
-
-    public string Name { get; set; }
-    public int Id { get; set; }
-    public List<ClassB> PropertyBs { get; init; }
-
-    #endregion
+	public List<ClassB> PropertyBs{get;init;}
 
 }
